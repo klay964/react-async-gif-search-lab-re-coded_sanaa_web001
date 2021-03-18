@@ -28,3 +28,5 @@ class GiftListContainer extends React.component{
       </div>)
   }
 }
+
+export default GiftListContainer
