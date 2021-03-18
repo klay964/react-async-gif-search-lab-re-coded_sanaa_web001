@@ -12,7 +12,7 @@ class GiftList extends React.component{
    
     return(
       <div>
-     
+     {props.gi}
       </div>)
   }
 }
