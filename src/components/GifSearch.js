@@ -6,9 +6,7 @@ class GiftSearch extends React.component{
   constructor(props){
     super()
     state={
-      query:{
-        
-      }
+      query:""
     }
    
   }
