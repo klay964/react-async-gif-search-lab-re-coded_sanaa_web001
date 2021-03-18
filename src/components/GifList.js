@@ -4,11 +4,9 @@ import GifSearch from '../components/GifSearch'
 
 
 class GiftList extends React.component{
-  constructor(){
+  constructor(props){
     super()
-    this.state={
-      gifs:[]
-    }
+   
   }
   
   render(){
