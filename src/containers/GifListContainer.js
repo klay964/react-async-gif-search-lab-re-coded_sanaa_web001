@@ -12,6 +12,8 @@ class GiftListContainer extends React.component{
   }
   
   render(){
+    componenDidMount(
+      )
     return(
       <div></div>)
   }
