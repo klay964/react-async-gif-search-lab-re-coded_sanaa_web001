@@ -11,6 +11,10 @@ class GiftSearch extends React.component{
    
   }
   
+  handleChange=(e)=>{
+  this.setState({query: event.target.value})
+  }
+  
   handleSubmit = event => {
     event.preventDefault()
     this.props.fetchGIFs(this.state.query)
@@ -19,6 +23,9 @@ class GiftSearch extends React.component{
    
     return(
       <div>
+       <form onSubmit={this.handleSubmit}>
+          <input type="text" value={this.state.query} onChange={handleChange} />
+        </form>
     
       </div>
       )
