@@ -13,7 +13,8 @@ class GiftList extends React.component{
     return(
       <div>
      {props.gifs.map(gif=> <img src={gif.url})}
-      </div>)
+      </div>
+      )
   }
 }
 
