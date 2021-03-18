@@ -13,7 +13,9 @@ class GiftListContainer extends React.component{
   
   render(){
     componenDidMount(){
-      
+      const fetchTheGifs=()=>{
+        
+      }
     }
     return(
       <div></div>)
