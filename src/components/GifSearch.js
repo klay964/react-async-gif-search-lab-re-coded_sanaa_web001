@@ -11,7 +11,10 @@ class GiftSearch extends React.component{
    
   }
   
-  
+  handleSubmit = event => {
+    event.preventDefault()
+    this.props.fetchGIFs(this.state.query)
+  }
   render(){
    
     return(
