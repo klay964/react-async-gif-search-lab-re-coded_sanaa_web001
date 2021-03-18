@@ -23,7 +23,7 @@ class GiftListContainer extends React.component{
     }
     return(
       <div>
-      <GifSearch />
+      <GifSearch fetchGIFs={this.fetchGIFs}/>
       </div>)
   }
 }
