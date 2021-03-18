@@ -7,7 +7,12 @@ class GiftListContainer extends React.component{
   constructor(){
     super()
     this.state={
-      
+      gifs:[]
     }
+  }
+  
+  render(){
+    return(
+      <div></div>)
   }
 }
